@@ -5,14 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d37fb5b-1dd9-406d-b0cb-66aaa8f588b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Nubank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/juros/JurosNubank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TesteCalculadoraDeJuros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TesteCalculadoraDeJuros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/TesteCalculadoraDeJuros.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/TesteCalculadoraDeJuros.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DesignPatternObserver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DesignPatternObserver/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />

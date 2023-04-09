@@ -29,7 +29,6 @@ jobs:
         cache: maven
     - name: Test with Maven
       run: |
-        cd DesignPattern
         mvn clean test site
     
     - name: Upload build artifacts
@@ -61,7 +60,6 @@ jobs:
 
     - name: Build with maven
       run: |
-        cd DesignPattern
         mvn clean install
     - name: Upload build artifacts
       uses: actions/upload-artifact@v3

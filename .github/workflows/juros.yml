@@ -44,7 +44,7 @@ jobs:
     steps:
     - name: Notify pipeline info
       run: echo "Finished tests"
-    #   -------------------
+
   build:
     runs-on: ubuntu-latest
 
@@ -61,6 +61,7 @@ jobs:
     - name: Build with maven
       run: |
         mvn clean install
+        
     - name: Upload build artifacts
       uses: actions/upload-artifact@v3
       with:
@@ -72,8 +73,6 @@ jobs:
 
     needs: build
     steps:
-    - name: Executar scripts externos
+    - name: Executar scripts externos versionados
       uses: actions/checkout@v3
-    - run: sh email-sheel.sh
-      env:
-        email: isadora.bello@gec.inatel.br
+    - run: sh scripts/shell.sh

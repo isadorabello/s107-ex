@@ -1,9 +1,6 @@
 package org.example;
 
-import org.example.juros.JurosBB;
-import org.example.juros.JurosBradesco;
-import org.example.juros.JurosItau;
-import org.example.juros.JurosSantander;
+import org.example.juros.*;
 import org.testng.annotations.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -64,6 +61,20 @@ public class TesteCalculadoraDeJuros {
         calculadoraDeJuros = new BancoDoBrasil();
         double valor = calculadoraDeJuros.calculaJuros(100);
         assertEquals(valor, 107.0, 0.1);
+
+    }
+
+    @Test
+    public void testeNubank() {
+        calculadoraDeJuros = new Nubank();
+        assertTrue(calculadoraDeJuros.getCalculaJuros() instanceof JurosNubank);
+    }
+
+    @Test
+    public void testeNubankValor() {
+        calculadoraDeJuros = new Nubank();
+        double valor = calculadoraDeJuros.calculaJuros(150);
+        assertEquals(valor, 153.0, 0.1);
 
     }
 }

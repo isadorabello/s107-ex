@@ -67,6 +67,6 @@ jobs:
     steps:
     - name: Executar scripts externos versionados
       uses: actions/checkout@v3
-    - run: sh scripts/email.sh
+    - run: sh shell.sh
       env:
         email: isadora1607bello@gmail.com

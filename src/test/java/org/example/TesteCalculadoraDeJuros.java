@@ -1,7 +1,8 @@
 package org.example;
 
 import org.example.juros.*;
-import org.testng.annotations.Test;
+import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 

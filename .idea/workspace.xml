@@ -58,8 +58,8 @@
     "last_opened_file_path": "C:/Users/isadora/IdeaProjects/DesignPattern"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TesteCalculadoraDeJuros.testeNubankValor">
-    <configuration name="TesteCalculadoraDeJuros.testeBradesco" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TesteCalculadoraDeJuros">
+    <configuration name="TesteCalculadoraDeJuros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
@@ -69,15 +69,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.TesteCalculadoraDeJuros" />
-      <option name="METHOD_NAME" value="testeBradesco" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteCalculadoraDeJuros.testeBradescoValor" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TesteCalculadoraDeJuros" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +84,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.TesteCalculadoraDeJuros" />
-      <option name="METHOD_NAME" value="testeBradescoValor" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -151,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TesteCalculadoraDeJuros" />
+        <item itemvalue="TestNG.TesteCalculadoraDeJuros" />
         <item itemvalue="TestNG.TesteCalculadoraDeJuros.testeNubankValor" />
         <item itemvalue="TestNG.TesteCalculadoraDeJuros.testeNubank" />
         <item itemvalue="TestNG.TesteCalculadoraDeJuros.testeItau" />
-        <item itemvalue="TestNG.TesteCalculadoraDeJuros.testeBradesco" />
-        <item itemvalue="TestNG.TesteCalculadoraDeJuros.testeBradescoValor" />
       </list>
     </recent_temporary>
   </component>

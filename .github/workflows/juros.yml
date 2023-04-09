@@ -35,7 +35,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: relatorio-testes
-        path: DesignPattern/target/site/
+        path: target/site/
     
   notification-pipe:
     runs-on: ubuntu-latest
@@ -65,7 +65,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: arquivo jar
-        path: DesignPattern/target/*.jar
+        path: target/*.jar
 
   notification:
     runs-on: ubuntu-latest
